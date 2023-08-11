@@ -1,0 +1,23 @@
+{
+  "name": "quansitech/qs-easywechat",
+  "description": "sdk library wechat",
+  "type": "library",
+  "keywords": ["thinkphp", "wechat", "component", "sdk", "qscmf"],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "tiderjian",
+      "email": "tider_yatsen@hotmail.com"
+    }
+  ],
+  "require": {
+      "php": ">=8.0.0",
+      "tiderjian/think-core": ">=12.4",
+      "overtrue/wechat": "^4.9"
+  },
+  "autoload": {
+    "psr-4": {
+      "Qs\\EasyWechat\\": "src/"
+    }
+  }
+}
