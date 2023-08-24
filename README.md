@@ -10,7 +10,11 @@ composer require quansitech/qs-easywechat
 
 ### 用法
 
-构造MiniProgram对象
+微信公众号用OaProgram
+
+微信小程序用MiniProgram
+
+构造用法类似
 
 简略构造方式
 ```php
